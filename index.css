@@ -1,0 +1,69 @@
+h1 {
+  color: red;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica;
+}
+
+#titel {
+  left: 32px;
+  top: 24px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 74px;
+  color: #000000;
+  position: relative;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+#about{
+  position: relative;
+  width: 80%;
+  left: 32px;
+  top: 142px;
+
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+#fotoLeen {
+  object-fit: cover;
+  width: 80%;
+  height: 553px;
+  left: 32px;
+  top: 40px;
+  position: relative;
+}
+
+#subTitel {
+  position: relative;
+  width: 248px;
+  height: 46px;
+  left: 32px;
+  top: 5px;
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}

@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+  #titel {
+    left: 32px;
+    top: 24px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 74px;
+    color: #000000;
+    position: relative;
+  }
+}
