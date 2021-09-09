@@ -28,6 +28,7 @@ main {
 .footer {
   position: fixed;
   bottom: 0;
+  color: #000000
 }
 
 #about{
