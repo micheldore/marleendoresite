@@ -2,30 +2,23 @@
   box-sizing: border-box;
 }
 body {
+   background-image: url("background.jpg");
+   background-color: #726954;
   font-size: 14px;
 }
-.v1_2 {
-  width: 400%;
-  height: 876px;
-  background: rgba(114,105,84,1);
-  margin: 0px;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
+
 .v1_5 {
   width: 248px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 830px;
+  top: 730px;
   left: 595px;
   font-family: Helvetica;
   font-weight: Regular;
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  text-decoration: underline;
 }
 .v3_15 {
   width: 40px;
@@ -128,10 +121,10 @@ body {
   border-radius: 50%;
 }
 .v1_4 {
-  width: 100%;
+  width: 80%;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 7px;
+  top: 57px;
   left: 93px;
   font-family: Helvetica;
   font-weight: Regular;
@@ -143,8 +136,8 @@ body {
   width: 248px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 343px;
-  left: 348px;
+  top: 317px;
+  left: 578px;
   font-family: Helvetica;
   font-weight: Regular;
   font-size: 24px;
