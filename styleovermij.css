@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: Times New Roman;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
   letter-spacing: 0.03em;
   color: black;
@@ -20,13 +20,13 @@ body {
 }
 
 h1 {
-  font-family: Helvetica, cursive;
+  font-family: Helvetica;
   margin: 0;
   margin-bottom: 60px;
   font-size: 45px;
-  font-weight: Regular;
-  opacity; 1;
-  line-height: 30px;
+  font-weight: normal;
+  opacity: 1;
+  line-height: 55px;
   letter-spacing: 0.035em;
 }
 
