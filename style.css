@@ -13,13 +13,16 @@ body {
   position: absolute;
   top: 730px;
   left: 595px;
+  text-align: center;
+  text-decoration: underline;
   font-family: Helvetica;
   font-weight: Regular;
   font-size: 24px;
   opacity: 1;
-  text-align: center;
-  text-decoration: underline;
+  line-height: 24px;
+  letter-spacing: 0.035em;
 }
+
 .v3_15 {
   width: 40px;
   height: 40px;
@@ -36,8 +39,8 @@ body {
   background: rgba(3,57,103,1);
   opacity: 1;
   position: absolute;
-  top: 50px;
-  left: 400px;
+  top: 43px;
+  left: 302px;
   border-radius: 50%;
 }
 .v3_7 {
@@ -128,20 +131,24 @@ body {
   left: 93px;
   font-family: Helvetica;
   font-weight: Regular;
-  font-size: 64px;
+  font-size: 45px;
   opacity: 1;
+  line-height: 55px;
+  letter-spacing: 0.035em;
   text-align: left;
 }
 .v1_6 {
   width: 248px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 317px;
-  left: 578px;
+  top: 171px;
+  left: 639px;
   font-family: Helvetica;
   font-weight: Regular;
   font-size: 24px;
   opacity: 1;
+  line-height: 55px;
+  letter-spacing: 0.035em;
   text-align: left;
   text-decoration: underline;
 }

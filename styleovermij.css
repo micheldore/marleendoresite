@@ -1,3 +1,5 @@
+/*! joppekusters.nl.css v1.0.3 */
+
 html {
   box-sizing: border-box;
 }
@@ -21,10 +23,11 @@ h1 {
   font-family: Helvetica, cursive;
   margin: 0;
   margin-bottom: 60px;
-  font-size: 32px;
-  font-weight: normal;
+  font-size: 45px;
+  font-weight: Regular;
+  opacity; 1;
   line-height: 30px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.035em;
 }
 
 p {
