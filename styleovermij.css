@@ -81,7 +81,7 @@ a:focus {
   .img {
     position: absolute;
     top: 60px;
-    bottom: 60px;
+    bottom: 120px;
     right: 60px;
     margin-bottom: 0;
   }
@@ -89,9 +89,18 @@ a:focus {
     min-height: 100%;
   }
 
-  .footer {
+  .footer1 {
     position: absolute;
-    bottom: 60px;
-    left: 60px;
+    bottom: -80px;
+    left: 0px;
+  }
+  .footer2 {
+    position: absolute;
+    text-decoration: underline;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    bottom: 60px
   }
 }
