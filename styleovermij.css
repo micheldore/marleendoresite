@@ -10,6 +10,14 @@ html {
   box-sizing: inherit;
 }
 
+
+@media only screen and (max-width: 320px) {
+
+   body {
+      font-size: 2em;
+   }
+
+
 body {
   font-family: Times New Roman;
   font-size: 20px;
