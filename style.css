@@ -76,10 +76,17 @@ a:focus {
   margin-bottom: 60px;
 }
 
-  .footer {
+  .footer1 {
     position: fixed;
-    bottom: 30px;
+    bottom: 50px;
     left: 70px;
     text-decoration: underline;
+}
+  .footer2 {
+      position: fixed;
+      bottom: 30px;
+      left: 70px;
+      text-decoration: underline;
+
   }
 }
