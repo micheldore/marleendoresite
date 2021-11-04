@@ -13,8 +13,18 @@ html {
    body {
       font-size: 2em;
    }
-
 }
+
+   @media only screen and (max-width: 640px) {h1 { font-size: 35px !important; }}
+
+   @media only screen and (max-width: 640px) {p { font-size: 20px !important; }}
+
+   @media only screen and (max-width: 640px) {h2 { font-size: 25px !important; }}
+
+   @media only screen and (max-width: 640px) {footer1 { font-size: 20px !important; }}
+
+   @media only screen and (max-width: 640px) {footer2 { font-size: 20px !important; }}
+
 
 .mobile-bg-fix-wrap .mobile-bg-fix-img {
 position: absolute;
@@ -41,6 +51,18 @@ h1 {
   opacity: 1;
   line-height: 55px;
   letter-spacing: 0.035em;
+}
+
+h2 {
+  font-family: Helvetica;
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: normal;
+  opacity: 1;
+  line-height: 32px;
+  letter-spacing: 0.035em;
+
 }
 
 p {
