@@ -39,7 +39,11 @@ body {
   line-height: 20px;
   letter-spacing: 0.03em;
   color: white;
-  background-image: url("background2.jpg");
+  background-image: url("achtergrond.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -56,7 +60,7 @@ h1 {
 h2 {
   font-family: Helvetica;
   margin: 0;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   font-size: 30px;
   font-weight: normal;
   opacity: 1;
@@ -68,7 +72,7 @@ h2 {
 p {
   margin: 0;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 25px;
   letter-spacing: 0.03em;
   color: #ffffff
 
@@ -104,21 +108,27 @@ a:focus {
 
   .footer1 {
     position: fixed;
+    width:100%;
     bottom: 50px;
-    left: 70px;
+    left: 65px;
     text-decoration: underline;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 40px;
     letter-spacing: 0.03em;
+    background-color: #547260
 }
   .footer2 {
       position: fixed;
-      bottom: 30px;
-      left: 70px;
+      width:100%;
+      bottom: 0px;
+      left: 65px;
       text-decoration: underline;
       font-size: 20px;
-      line-height: 20px;
+      line-height: 60px;
       letter-spacing: 0.03em;
+      background-color: #547260;
+      font color="#ffffff"
+
 
   }
 }

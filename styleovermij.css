@@ -14,8 +14,8 @@ body {
   font-size: 20px;
   line-height: 20px;
   letter-spacing: 0.03em;
-  color: black;
-  background-image: url("background2.jpg");
+  color: #547260;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -38,7 +38,7 @@ p:not(:last-child) {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #547260;
 }
 a:hover,
 a:focus {
@@ -94,8 +94,10 @@ a:focus {
 
   .footer1 {
     position: absolute;
+    text-decoration: underline;
     bottom: -80px;
     left: 0px;
+    background-color: #ffffff
   }
   .footer2 {
     position: absolute;
@@ -104,6 +106,7 @@ a:focus {
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 0.03em;
-    bottom: 60px
+    bottom: 60px;
+    background-color: #ffffff
   }
 }
