@@ -110,6 +110,7 @@ a:focus {
     width:100%;
     bottom: 50px;
     left: 65px;
+    text-decoration: underline;
     font-size: 20px;
     line-height: 46px;
     letter-spacing: 0.03em;
@@ -120,6 +121,7 @@ a:focus {
       width:100%;
       bottom: 0px;
       left: 65px;
+      text-decoration: underline;
       font-size: 20px;
       line-height: 60px;
       letter-spacing: 0.03em;
