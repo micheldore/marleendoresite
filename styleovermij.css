@@ -12,7 +12,7 @@ html {
 body {
   font-family: Helvetica;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 22px;
   letter-spacing: 0.03em;
   color: #547260;
   background-color: #ffffff;
@@ -21,11 +21,11 @@ body {
 h1 {
   font-family: Helvetica;
   margin: 0;
-  margin-bottom: 60px;
+  margin-bottom: 5px;
   font-size: 45px;
   font-weight: normal;
   opacity: 1;
-  line-height: 50px;
+  line-height: 38px;
   letter-spacing: 0.035em;
 }
 
@@ -37,12 +37,12 @@ p:not(:last-child) {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #547260;
 }
 a:hover,
 a:focus {
-  text-decoration: none;
+  text-decoration: underline;
   color: dimgray;
 }
 
@@ -93,6 +93,7 @@ a:focus {
 
   .footer1 {
     position: absolute;
+    text-decoration: underline;
     bottom: -80px;
     left: 0px;
     background-color: #ffffff
@@ -100,10 +101,22 @@ a:focus {
   .footer2 {
     position: absolute;
     font-family: Helvetica;
+    text-decoration: underline;
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 0.03em;
     bottom: 60px;
     background-color: #ffffff
+  }
+
+  .ondertitel{
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    color: #547260;
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
 }
