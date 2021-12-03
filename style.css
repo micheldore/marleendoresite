@@ -15,7 +15,7 @@ html {
    }
 }
 
-   @media only screen and (max-width: 640px) {h1 { font-size: 35px !important; }}
+   @media only screen and (max-width: 640px) {h1 { font-size: 30px !important; }}
 
    @media only screen and (max-width: 640px) {p { font-size: 20px !important; }}
 
@@ -94,10 +94,10 @@ a:focus {
 .main {
   position: relative;
   margin: 0 auto;
-  padding-top: 60px;
-    padding-right: 60px;
+  padding-top: 40px;
+    padding-right: 40px;
     padding-bottom: 2px;
-    padding-left: 60px;
+    padding-left: 40px;
   background-image: url("background1.jpg");
 }
 
@@ -111,7 +111,7 @@ a:focus {
     width:100%;
     text-decoration: underline;
     bottom: 0px;
-    left: 65px;
+    left: 46px;
     font-size: 20px;
     line-height: 46px;
     letter-spacing: 0.03em;
@@ -121,7 +121,7 @@ a:focus {
       position: fixed;
       width:100%;
       bottom: 0px;
-      left: 65px;
+      left: 46px;
       text-decoration: underline;
       font-size: 20px;
       line-height: 60px;

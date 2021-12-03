@@ -7,7 +7,7 @@ html {
 *::after {
   box-sizing: inherit;
 }
- @media only screen and (max-width: 640px) {h1 { font-size: 35px !important; }}
+ @media only screen and (max-width: 640px) {h1 { font-size: 30px !important; }}
 
 body {
   font-family: Helvetica;
@@ -49,7 +49,7 @@ a:focus {
 .main {
   position: relative;
   margin: 0 auto;
-  padding: 60px;
+  padding: 40px;
 }
 
 .content {
@@ -72,7 +72,6 @@ a:focus {
   .main {
     height: 100vh;
   }
-
   .content {
     width: 33%;
     max-width: 452px;
