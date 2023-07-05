@@ -1,29 +1,19 @@
-<!DOCTYPE html>
-<!-- Coding By CodingNepal - codingnepalweb.com -->
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Popup Cookie Consent Box</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- Boxicons CSS -->
-    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <i class="bx bx-cookie"></i>
-        <h2>Cookies Consent</h2>
-      </header>
-      <div class="data">
-        <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
-      </div>
-      <div class="buttons">
-        <button class="button" id="acceptBtn">Accept</button>
-        <button class="button" id="declineBtn">Decline</button>
-      </div>
-    </div>
-  </body>
-</html>
+const cookieBox = document.querySelector(".wrapper"),
+  buttons = document.querySelectorAll(".button");
+const executeCodes = () => {
+  //if cookie contains codinglab it will be returned and below of this code will not run
+  if (document.cookie.includes("codinglab")) return;
+  cookieBox.classList.add("show");
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      cookieBox.classList.remove("show");
+      //if button has acceptBtn id
+      if (button.id == "acceptBtn") {
+        //set cookies for 1 month. 60 = 1 min, 60 = 1 hours, 24 = 1 day, 30 = 30 days
+        document.cookie = "cookieBy= codinglab; max-age=" + 60 * 60 * 24 * 30;
+      }
+    });
+  });
+};
+//executeCodes function will be called on webpage load
+window.addEventListener("load", executeCodes);
