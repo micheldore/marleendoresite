@@ -14,7 +14,7 @@ body {
   font-size: 20px;
   line-height: 22px;
   letter-spacing: 0.03em;
-  color: #547260;
+  color: #35459a;
   background-color: #ffffff;
 }
 
@@ -38,7 +38,7 @@ p:not(:last-child) {
 
 a {
   text-decoration: underline;
-  color: #547260;
+  color: #35459a;
 }
 a:hover,
 a:focus {
@@ -113,7 +113,7 @@ a:focus {
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.03em;
-    color: #547260;
+    color: #35459a;
     background-color: #ffffff;
     margin-top: 0px;
     margin-bottom: 20px;
