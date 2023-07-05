@@ -2,10 +2,6 @@
 
 <html lang="nl"">
   <head>
-    <div class="cookies-eu-banner">
-  Accepteer cookies
-  <button>OK</button>
-</div>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XTT0JPWYS"></script>
     <script>
@@ -29,6 +25,28 @@
       background-image: url("Untitled_Artwork.png")
     }
   </style>
+
+    <script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#eaf7f7",
+      "text": "#5c7291"
+    },
+    "button": {
+      "background": "#56cbdb",
+      "text": "#ffffff"
+    }
+  },
+  "content": {
+    "message": "This website uses cookies to ensure you get the best experience on our website.",
+    "dismiss": "Got it!",
+    "link": "Learn more",
+    "href": "http://cookies.insites.com/about-cookies"
+  }
+})});
+</script>
   </head>
   <body>
     <main class="main">
