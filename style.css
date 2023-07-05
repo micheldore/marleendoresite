@@ -41,7 +41,7 @@ body {
   letter-spacing: 0.03em;
   color: white;
   background-image: url("Untitled_Artwork.png");
-  background-size: cover;
+  background-size: fill;
   background-position: 90%;
   background-attachment: fixed;
 }
