@@ -1,55 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cookie Consent Banner</title>
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="cookiePopup" class="hide">
-      <img src="cookie.png" />
-      <p>
-        Our website uses cookies to provide your browsing experience and
-        relevant information. Before continuing to use our website, you agree &
-        accept of our <a href="#">Cookie Policy & Privacy.</a>
-      </p>
-      <button id="acceptCookie">Accept</button>
+  <div id="cookieNotice" class="light display-right" style="display: none;">
+    <div id="closeIcon" style="display: none;">
     </div>
-    <!-- Script -->
-    <script src="script.js"></script>
-  </body>
+    <div class="title-wrap">
+        <h4>Cookie Consent</h4>
+    </div>
+    <div class="content-wrap">
+        <div class="msg-wrap">
+            <p>This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our  <a style="color:#115cfa;" href="/privacy-policy">Privacy Policy</a></p>
+            <div class="btn-wrap">
+                <button class="btn-primary" onclick="acceptCookieConsent();">Accept</button>
+            </div>
+        </div>
+    </div>
+</div>
+  </head>
 </html>
 
-<html lang="nl"">
-  <head>
-    <!-- Coding By CodingNepal - codingnepalweb.com -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Popup Cookie Consent Box</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-  <body>
-    <div class="wrapper">
-      <div class="data">
-        <p>This website use cookies.</p>
-      </div>
-      <div class="buttons">
-        <button class="button" id="acceptBtn">Accept</button>
-        <button class="button" id="declineBtn">Decline</button>
-         <link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
-      </div>
-    </div>
-  </body>
-  </head>
-
+<html lang="nl">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XTT0JPWYS"></script>
     <script>
