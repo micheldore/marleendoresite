@@ -39,11 +39,11 @@ body {
   line-height: 20px;
   letter-spacing: 0.03em;
   color: white;
-  background-image: url("achtergrond.png");
+  background-image: url("Untitled_Artwork.png.png");
   background-size: cover;
   background-position: 90%;
   background-attachment: fixed;
-  background-color: #547260;
+  background-color: #35459a;
 }
 
 h1 {
@@ -98,7 +98,7 @@ a:focus {
     padding-right: 40px;
     padding-bottom: 2px;
     padding-left: 40px;
-  background-image: url("background1.jpg");
+  background-image: url("Untitled_Artwork.png");
 }
 
 .content {
@@ -115,7 +115,7 @@ a:focus {
     font-size: 20px;
     line-height: 46px;
     letter-spacing: 0.03em;
-    background-color: #547260
+    background-color: #35459a
 }
   .footer2 {
       position: fixed;
@@ -126,7 +126,7 @@ a:focus {
       font-size: 20px;
       line-height: 60px;
       letter-spacing: 0.03em;
-      background-color: #547260;
+      background-color: #35459a;
       font color="#ffffff"
 
 
