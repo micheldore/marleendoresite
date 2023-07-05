@@ -128,6 +128,19 @@ a:focus {
       background-color: "#35459a";
       font color="#ffffff"
 
+  cookies-eu-banner {
+      position: fixed;
+      width:100%;
+      bottom: 46px;
+      left: 46px;
+      text-decoration: underline;
+      font-size: 20px;
+      line-height: 60px;
+      letter-spacing: 0.03em;
+      background-color: "#35459a";
+      font color="#ffffff"
+
+
 
   }
 }
