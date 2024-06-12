@@ -1,0 +1,300 @@
+    body {
+      margin: 0;
+      padding: 0;
+      -ms-overflow-style: none; /* IE and Edge */
+    }
+    
+    /* Hide scrollbar in Chrome */
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Text styles */
+    .title {
+      font-size: 54px;
+	  margin-top: -45px;
+	  margin-bottom: 70px;
+    }
+
+    .header {
+      font-size: 40.5px;
+      line-height: 40.5px;
+	  padding-top: 60px;
+	  padding-bottom: 15px;
+    }
+	  
+	.subheader {
+      font-size: 27px;
+      line-height: 30px;
+	  padding-bottom: 45px;
+    }
+
+    .body {
+      font-size: 27px;
+      line-height: 30px;
+	  padding-bottom: 60px;
+    }	  
+
+    /* Contact info table */
+    .contact-info table {
+      width: 100%;
+      border-collapse: collapse;
+	  font-size: 27px;
+	  margin-bottom: 45px;
+    }
+
+    .contact-info td {
+      text-align: left;
+      line-height: 1;
+    }
+
+    .label {
+      width: 112.5px;
+    }
+
+    .contact-info a {
+      color: black;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    /* Layout */
+    .container {
+      display: flex;
+      position: relative;
+      height: 100vh;
+    }
+
+    .white-column,
+    .paper-column {
+      height: 100%;
+      overflow-y: auto; /* Enable vertical scrolling */
+      overflow-x: hidden; /* Prevent horizontal overflow */
+      flex: 1; /* Equal width by default */
+      transition: flex 0.5s ease-in-out; /* Ease-in-out transition for flex property */
+      position: relative; /* Ensure positioning is relative */
+    }
+
+    .white-column-content,
+    .paper-column-content {
+      padding: 30px;
+      padding-top: 63px; /* Add padding top to accommodate the header */
+    }
+
+    /* Constraints on column width */
+    .column-content {
+      min-width: 850px; /* Keep this here, otherwise the animation stops working somehow */
+      max-width: 850px;
+    }
+
+    .white-column {
+      background-color: #FFFFFF;
+      font-family: futura-pt, Futura, sans-serif;
+      letter-spacing: 0.015em;
+	  color: #000000;
+    }
+
+    .paper-column {
+      background-color: #000000;
+      font-family: "Baskerville", serif;
+	  color: #FFFFFF;
+    }
+
+    /* Image wrappers */
+    .rectangle {
+      position: relative;
+      width: 100%;
+	  padding-top: 150%; /* Aspect ratio 2:3 */
+	  margin-bottom: 15px;
+    }
+
+    .rectangle img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+      margin: 0 auto; /* Centers the image horizontally within its container */
+    }
+
+    .white-column {
+      flex: 86.75%;
+    }
+
+    .paper-column {
+      flex: 13.25%;
+    }	  
+	  
+	/* Mobile breakpoints basics */
+    @media (max-width: 820px) {
+		
+	  /* Text styles */
+      .title {
+        font-size: 36px;
+		margin-top: -30px;
+		margin-bottom: 45px;
+      }
+
+      .header {
+        font-size: 27px;
+        line-height: 27px;
+		padding-top: 40px;
+		padding-bottom: 10px;
+      }
+		
+	  .subheader {
+        font-size: 18px;
+        line-height: 20px;
+		padding-bottom: 30px;
+      }
+
+      .body {
+        font-size: 18px;
+        line-height: 20px;
+		padding-bottom: 40px;
+      }
+
+      /* Contact info table */
+      .contact-info table {
+		font-size: 18px;
+		margin-bottom: 30px;
+      }
+
+      .label {
+        width: 75px;
+      }
+		
+      /* Layout */
+      .white-column-content,
+      .paper-column-content {
+        padding: 20px;
+        padding-top: 42px; /* Add padding top to accommodate the header */
+      }
+
+      /* Constraints on column width */
+      .column-content {
+        min-width: 500px; /* Keep this here, otherwise the animation stops working somehow */
+        max-width: 625px;
+      }
+
+      .white-column {
+        letter-spacing: 0.01em;
+      }
+
+      /* Image wrappers */
+      .rectangle {
+		min-width: 500px;
+		max-width: 625px;
+		margin-bottom: 10px;
+      }
+
+      .white-column {
+        flex: 86.75%;
+      }
+
+      .paper-column {
+        flex: 13.25%;
+      }
+		
+	}
+	
+	  
+	/* Mobile breakpoint XL */
+    @media (min-width: 430px) and (max-width: 767px) {
+
+	  /* Constraints on column width */
+      .column-content {
+        min-width: 335px; /* Keep this here, otherwise the animation stops working somehow */
+        max-width: 420px;
+      }
+
+      /* Image wrappers */
+      .rectangle {
+		min-width: 335px;
+		max-width: 420px;
+      }
+	
+	}
+	  
+	/* Mobile breakpoint L */
+    @media (min-width: 391px) and (max-width: 429px) {
+
+	  /* Constraints on column width */
+      .column-content {
+        min-width: 320px; /* Keep this here, otherwise the animation stops working somehow */
+        max-width: 420px;
+      }
+
+      /* Image wrappers */
+      .rectangle {
+		min-width: 320px;
+		max-width: 420px;
+      }
+		
+	}
+	  
+	/* Mobile breakpoint M */
+    @media (min-width: 376px) and (max-width: 390px) {
+
+	  /* Constraints on column width */
+      .column-content {
+        min-width: 300px; /* Keep this here, otherwise the animation stops working somehow */
+        max-width: 375px;
+      }
+
+      /* Image wrappers */
+      .rectangle {
+		min-width: 300px;
+		max-width: 375px;
+      }
+	
+	}
+
+    /* Mobile breakpoint S*/
+    @media (min-width: 321px) and (max-width: 375px) {
+
+	  /* Constraints on column width */
+      .column-content {
+        min-width: 290px; /* Keep this here, otherwise the animation stops working somehow */
+        max-width: 360px;
+      }
+
+      /* Image wrappers */
+      .rectangle {
+		min-width: 290px;
+		max-width: 360px;
+      }
+	
+	}
+		
+	/* Mobile breakpoint XS*/
+    @media (max-width: 320px) {
+
+	  /* Constraints on column width */
+      .column-content {
+        min-width: 240px; /* Keep this here, otherwise the animation stops working somehow */
+        max-width: 300px;
+      }
+
+      /* Image wrappers */
+      .rectangle {
+		min-width: 240px;
+		max-width: 300px;
+      }
+	
+	}
